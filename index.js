@@ -30,8 +30,11 @@ app.post('/newItem', (req, res) =>
     res.send(`a post request with /newItem route on port ${PORT}`)
 );
 
-app.put('/item', (req, res) => 
-    res.send(`a put request with /item route on port ${PORT}`)
+app.get('/images', (req, res) => 
+    res.download('images/rocket.jpg')
+    //res.redirect('http://www.linkedin.com')
+    //res.end()
+    //res.send(`a put request with /item route on port ${PORT}`)
 );
 
 app.delete('/item', (req, res) => 
