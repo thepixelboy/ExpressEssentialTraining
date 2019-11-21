@@ -1,4 +1,6 @@
 import express from 'express';
+import favicon from 'serve-favicon';
+import path from 'path';
 import data from './data/data.json'
 
 const app = express();
@@ -13,6 +15,7 @@ app.use(express.urlencoded({extended: true}));
 
 // This is for images folder on path /images
 app.use('/images', express.static('images'));
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 
 app.get('/', (req, res) => 
     // get data first
