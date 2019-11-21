@@ -1,0 +1,28 @@
+{
+  "name": "expressessentialtraining",
+  "version": "1.0.0",
+  "description": "This are the exercise files I've created  while following the [Express Essential Training course on LinkedIn Learning](https://www.linkedin.com/learning/express-essential-training/).",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thepixelboy/ExpressEssentialTraining.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thepixelboy/ExpressEssentialTraining/issues"
+  },
+  "homepage": "https://github.com/thepixelboy/ExpressEssentialTraining#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
