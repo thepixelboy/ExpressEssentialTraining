@@ -19,7 +19,7 @@
   "homepage": "https://github.com/thepixelboy/ExpressEssentialTraining#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.0",
+    "nodemon": "^2.0.22",
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
